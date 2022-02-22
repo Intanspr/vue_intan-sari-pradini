@@ -13,7 +13,8 @@ Lean UX design thinking is a Emphatize, Define, Ideate, Prototype, and last vali
 visual bahwa pengguna pengguna untuk berinteraksi dengan produk Anda.
 4 pillars of UI is Consistency, Keep the interface simple, good typography, and last offer informative feedback.
 
-# User Persona # adalah adalah jenis profil pengguna yang sebenarnya sesuai dengan harapan,kebutuhan, tujuan, dan pola perilaku yang diamati.
+# User Persona # 
+adalah adalah jenis profil pengguna yang sebenarnya sesuai dengan harapan,kebutuhan, tujuan, dan pola perilaku yang diamati.
 
 # TASK #
 
