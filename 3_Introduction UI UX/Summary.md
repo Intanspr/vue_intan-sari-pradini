@@ -18,6 +18,8 @@ adalah adalah jenis profil pengguna yang sebenarnya sesuai dengan harapan,kebutu
 
 # TASK #
 
+https://docs.google.com/document/d/1t7KMPbJj_Y9hYFeCJFqnj9lS9uzosBCMYxb5DjnS3iA/edit?usp=drivesdk
+
 yang kita pelajari itu yaitu
 1. Mencari desain bebas dari ui ux
 2. kemudian kita mengidentifikasi bagian2 dari ui ux tersebut
