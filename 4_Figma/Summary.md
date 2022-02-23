@@ -1,4 +1,4 @@
-# Figma #
+# FIGMA #
 figma adalah editor grafik vektor dan alat prototyping, yang terutama berbasis web, dengan fitur offline tambahan yang diaktifkan oleh aplikasi desktop untuk macOS atau windows.
 
 
@@ -11,7 +11,8 @@ figma adalah editor grafik vektor dan alat prototyping, yang terutama berbasis w
 6. Pustaka Tim Fantastis/Sistem Desain, satu sumber kebenaran 
 7.Prototipe terintegrasi berkualitas tinggi 
 
-# kekurangan dari figma yaitu, kalian harus online untuk bisa menjalankan figma.   namun kalian dapat menyimpan file secara lokal, mengerjakannya dan menambahkannya lagi nanti. 
+# kekurangan dari figma 
+yaitu, kalian harus online untuk bisa menjalankan figma.   namun kalian dapat menyimpan file secara lokal, mengerjakannya dan menambahkannya lagi nanti. 
 
 # IDE/TOOLS dalam figma
 1. Importing oleh sketch files
@@ -20,3 +21,5 @@ figma adalah editor grafik vektor dan alat prototyping, yang terutama berbasis w
 4. Layers and groups
 5. Images
 6. Typography
+
+# TASK #
