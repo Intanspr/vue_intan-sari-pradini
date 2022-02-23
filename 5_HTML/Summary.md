@@ -16,11 +16,7 @@ Kegunaan html
 <title> menentukan judul dokumen
 <body> berisi konten halaman yang terlihat 
 
-# Styling pada paragraf html #
-<strong> membuat text lebih tebal </Strong>
-<em> penekanan pada text menjadi italic </em>
-<s> membuat text dengan garis tercoret </s>
-<br/> line break untuk membuat garis baru 
+
 
 # Frontend #
 adalah sebuah bagian dari website yang membuat tampilan yang menarik kepada user.
