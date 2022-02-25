@@ -23,3 +23,6 @@ yaitu, kalian harus online untuk bisa menjalankan figma.   namun kalian dapat me
 6. Typography
 
 # TASK #
+ https://www.figma.com/file/Y9GAMiHL4TTch17GTANcG2/Untitled?node-id=0%3A1
+ 
+ pada praktikum kali ini kita belajar membuat desain ui/ux menggunakan tools figma dan juga membuat protoype dari hasil desain tersebut
