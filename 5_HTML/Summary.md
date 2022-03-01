@@ -1,3 +1,8 @@
+Yang dipelajari yaitu
+1. HTML
+2. CSS
+3. FRONTEND
+
 # HTML #
 
 HTML (Hypertext markdown language) adalah sebuah standar yang di gunakan secara luas untuk menampilkan halaman Web. 
@@ -11,10 +16,10 @@ Kegunaan html
 
 # Dokumentasi Html #
 <! DOCTYPE html !> mendefinisikan dokumen ini sebagai html.5
-<html> elemen root dari halaman html
-<head> berisi informasi meta tentang dokumen
-<title> menentukan judul dokumen
-<body> berisi konten halaman yang terlihat 
+< html > elemen root dari halaman html
+< head > berisi informasi meta tentang dokumen
+< title > menentukan judul dokumen
+< body > berisi konten halaman yang terlihat 
 
 
 
