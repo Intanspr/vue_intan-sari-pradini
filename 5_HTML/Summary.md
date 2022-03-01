@@ -22,6 +22,14 @@ Kegunaan html
 5. < body > berisi konten halaman yang terlihat 
 
 # CSS #
+CSS (Cascading Style Sheet) 
+Dapat menghias halaman Web seperti color,size,font, background dll.
+Dapat mengatur posisi pada halaman web seperti float, align, display, position dll. 
+
+3 Cara menambahkan file css ke dalam html :
+1. External CSS
+2. Internal CSS
+3. Inline CSS
 
 # Frontend #
 adalah sebuah bagian dari website yang membuat tampilan yang menarik kepada user.
