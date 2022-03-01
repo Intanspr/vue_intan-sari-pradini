@@ -15,13 +15,13 @@ Kegunaan html
 6. Mempublikasikan halaman website secara online 
 
 # Dokumentasi Html #
-<! DOCTYPE html !> mendefinisikan dokumen ini sebagai html.5
-< html > elemen root dari halaman html
-< head > berisi informasi meta tentang dokumen
-< title > menentukan judul dokumen
-< body > berisi konten halaman yang terlihat 
+1. <! DOCTYPE html !> mendefinisikan dokumen ini sebagai html.5
+2. < html > elemen root dari halaman html
+3. < head > berisi informasi meta tentang dokumen
+4. < title > menentukan judul dokumen
+5. < body > berisi konten halaman yang terlihat 
 
-
+# CSS #
 
 # Frontend #
 adalah sebuah bagian dari website yang membuat tampilan yang menarik kepada user.
