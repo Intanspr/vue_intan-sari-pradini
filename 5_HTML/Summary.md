@@ -35,3 +35,9 @@ Dapat mengatur posisi pada halaman web seperti float, align, display, position d
 adalah sebuah bagian dari website yang membuat tampilan yang menarik kepada user.
   
 # TASK #
+tugas kali ini yaitu kita membuat web dari html melalui vs code
+https://raw.githubusercontent.com/Intanspr/vue_intan-sari-pradini/main/5_HTML/Screenshot%20index.png?token=GHSAT0AAAAAABRTQFSOFQQB67ZJ4IPO7MEAYQ63FBQ
+https://raw.githubusercontent.com/Intanspr/vue_intan-sari-pradini/main/5_HTML/Screenshot%20form.png?token=GHSAT0AAAAAABRTQFSPWN22BH474KSLGQLMYQ63ECQ
+https://raw.githubusercontent.com/Intanspr/vue_intan-sari-pradini/main/5_HTML/Screenshot%20welcome.png?token=GHSAT0AAAAAABRTQFSO3TQHN4TPCNITO6SKYQ63FMQ
+
+
