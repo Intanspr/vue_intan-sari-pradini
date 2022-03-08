@@ -1,6 +1,7 @@
 3 Materi yg di pelajari yaitu :
 1. FrontEnd Framework
 2. Bootstrap
+3. Class pada bootstrap
 
 # FRONTEND FRAMEWORK #
 adalah Sekumpulan aturan kode yang bisa kita gunakan untuk mempermudah dalam membuat suatu tampilan website.
