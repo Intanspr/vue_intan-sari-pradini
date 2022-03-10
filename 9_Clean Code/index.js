@@ -1,6 +1,6 @@
 // Problem 1 - Analysis
-// Berapa banyak kekurangan
-// Bagian mana aja
+// ada 4 kekurangan
+// pada bagian var, user
 // Alasan
 
 
