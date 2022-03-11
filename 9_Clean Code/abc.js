@@ -1,7 +1,10 @@
 // Problem 1 - Analysis
-// ada 4 kekurangan
-// pada bagian var, user
-// Alasan
+
+// ada  kekurangan
+// 1. pada bagian class user kurang ditambahkan constructur
+// 2. pada bagian var seharusnya diganti menjadi "this"
+// 3. pada bagian class userservices kurang ditambahkan constructur
+// 4. 
 
 
 // Problem 2 - Write
