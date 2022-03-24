@@ -1,4 +1,4 @@
-# vue_intan-sari-pradini
+# 12_vue-cli
 
 ## Project setup
 ```
