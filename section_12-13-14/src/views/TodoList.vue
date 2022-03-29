@@ -6,9 +6,7 @@
       
      <ol>
       <li v-for="(todo, index) in todos" v-bind:key="index">
-      <router-link :to="'/'+index">
-        {{ todo }}
-        </router-link>
+      <span  @click="() => redirect(todo)" > {{ todo }} </span>
 
       <button @click="editTodo(index)">Edit</button>  
       <button @click="deleteTodo(index)">Hapus</button>
@@ -35,11 +33,18 @@ export default {
         }
       },
 
-      methods: {
+      methods: {   
+        redirect(item, index) {
+        return this.$router.push({
+          name: "DetailTodo",
+          params: { currentBio: item, index: index },
+          });
+        },
         Tambahkan() {
           if(this.item !=''){this.todos.push( this.item )}
           this.item='';
         },
+
         editTodo(index) {
           const currentValue = this.todos[index];
 
@@ -58,7 +63,9 @@ export default {
         this.currentIndex = 0;
         }
       }, 
-
+      
+      
+        
 }
 </script>
 
