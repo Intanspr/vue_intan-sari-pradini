@@ -2,34 +2,37 @@
     <div id="FirstNews">
         <h1 style="text-align: center;"> Berita Terkini </h1>
         
-        <div class="app" v-for="(currency, index) in item  " :key="index"> 
+        <div class="app" v-for="(page, index) in item  " :key="index"> 
             <nav >
                 <div id="container" @click="() => pushNews()">
                 
                     <div>
-                        {{currency. author}}
+                        {{page. author}}
                     
                     <br>
                     <br>
                     <div style="display: flex; "> 
                         <div >
-                            <a :href="currency.urlToImage" target="_blank"><img :src="currency.urlToImage" 
-                            style="width: 300px;
-                            height: 250px;"></a> 
+                            <img :src="page.urlToImage" 
+                            style="width: 250px;
+                            height: 250px;"/> 
                         </div>
                         <div style="margin-top: auto; margin-bottom: auto;" >
                             <div style="font-size: 22px;">
-                                {{currency. title}}
+                                {{page. title}}
                             </div>
                             <br>
                         <div class="deskripsi" style="color: rgb(125, 125, 125);">
-                           {{currency. description}}
+                           {{page. description}}
                         </div>
                         </div>
                     </div>
                     
-                        {{currency. publishedAt}}<br>
+                        {{page. publishedAt}}<br>
                     </div>
+                    <button class="btn btn-success" @click="nextNews">
+                        Baca Selengkapnya
+                    </button>
                 </div>
             </nav>
 
@@ -43,6 +46,11 @@ export default {
   
     name: "FirstNews",
     setup() {},
+    methods: {
+        nextNews() {
+            this.$router.push({ path: "/SecondNews" });
+        },
+    },
     computed: {
     item(){
         return this.$store.state.listItem;
@@ -51,15 +59,6 @@ export default {
     mounted() {
         this.$store.dispatch("fetchItem");
     },
-    methods:{
-       
-       pushNews() {
-           return this.$router.push({
-               name: "SourceNews",
-           });
- 
-       },
-    }
 }
 </script>
 <style>
