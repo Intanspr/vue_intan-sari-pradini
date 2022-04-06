@@ -1,51 +1,55 @@
-# VUE DATA #
-Hal2 yang dipelajari di vue data :
-1. Data Fetching
-2. Penanganan Data Error
-3. Validasi Data
-4. Autentikasi
+# VUE UI FRAMEWORK #
+Hal2 yang dipelajari di vue ui frame work yaitu:
+1. Pengenalan Rangka Kerja UI
+2. Vuetify
+3. Manajemen Warna Tema
+4. Gelap Terang
+5. Reaktivitas Dengan Kerangka Kerja UI
+6. Extra
 
+# 1. PENGENALAN RANGKA KERJA UI #
+UI Framework adalah kumpulan elemen visual(seperti tombol,ikon dll) dan fungsionalitas yang bisa dipakai secara instan.
+UI Framework membantu kita untuk membuat aplikasi web dengan tampilan yang baik dan terlihat profesional.
 
-# 1. DATA FETCHING
-Adalah pengambilan data oleh program perangkat lunak atau skrip. setelah di ambil, data di pindahkan ke lokasi alternatif atau tampilan di layar.
+## Cara Kerjanya Rangka Kerja UI
+Rangka kerja menyediakan komponen siap pakai kemudian kita impor komponen yang kita butuhkan ke dalam aplikasi.
 
-## Cara kerja Fetch API
-Singkatan dari API(Application Programming Interface) yaitu sebuah protokol pada dasarnya menyediakan bahasa dan kontrak untuk bagaimana dua sistem berinteraksi.
+# 2. VUETIFY 
+Vuetify adalah library yang memungkinkan kita membuat aplikasi dengan tampilan yang indah walaupun kita bukanlah seorang desainer.
 
-## Apa itu EndPoint?
-Saat API berinteraksi dengan sistem lain, titik kontak dari komunikasi ini dianggap sebagai Endpoint, yaitu berbentuk link.
+## Cara Kerja Vuetify
+Vuetify telah menyiapkan komponen siap pakai yang bisa kita gunakan di aplikasi kita.
 
-## Fetch Daya dengan Axios
-Axios adalah sebuah pustaka yang dipakai frontend untuk melakukan HTTP request kepada link API Endpoint.
+# 3. MANAJEMEN WARNA TEMA
+Yaitu pengaturan set warna yang dapat kita terapkan terhadap tampilan di aplikasi.
 
-## Apa itu Request Queries?
-Jika Request adalah permohonan pengambilan data maka Request Queries adalah syarat yang menyatakan data seperti apa yang ingin di ambil.
+## Cara Kerja Manajemen Warna Tema
+Vuetify menyimpan warna tema bawaan yang bisa kita setel secara manual ketika aplikasi berjalan. Komponen vuetify menggunakan warna primary sebagai warna dominannya.
 
-# 2. PENANGANAN DATA ERROR
-JavaScript adalah bahasa yang memiliki tipe data dinamis. Tidak memberikn kesalahan ketika kompilasi, jadi beberapa kali kita akan mendapatkan run-time error untuk mengakses variabel atau fungsi yg undefined. 
+# 4. GELAP TERANG 
+Yaitu Fitur peralihan warna latar belakang aplikasi dari terang ke gelap atau sebaliknya.
 
-Penanganan Data Error adalah konsep untuk mencegah terjadinya runtime-error
-## Cara Kerja Promise
-Objek promise mewakili penyelesaian atau kegagalan akhirnya dari operasi asinkron dan nilai yang dihasilkannya. Aktivitas berkomunikasi dengan API pada umumnya berbentuk promise.
+## Cara Kerja Gelap Terang
+Vuetify memiliki variabel boolean dark dan juga menyimpan warna tema bawaan mode gelap
 
-# 3. VALIDASI DATA
-Adalah konsep untuk melakukan pengecekan terhadap data apakah sudah sesuai dengan kriteria atau belum, terutama pada input pengguna.
+# 5. REAKTIVITAS DENGAN KERANGKA KERJA UI
+Reaktivitas Viewport adalah perubahan ukuran yang menyesuaikan dengan lebar layar tampilan.
 
-## Cara Kerja Validasi Data
-Fungsi Validasi menerima nilai yang ingin di cek kemudian mengembalikan nilai keabsahan/validity berupa nilai boolean(true/false)
-Validasi manual dengan javascript tipe validai ini sangat kustom, biasa menggunakan fungsi dengan if atau switch.
-## Validasi dengan regex
-Regex adalah singkatan dari Regular Expression. Regex merupakan sebuah teks(string) yang mendefinisikan sebuah pola pencarian sehingga dapat membantu kita untuk melakukan matching dan locate.
+## Cara Kerja Reaktivitas Pada Vuetify
+Lebar layar diabgi menjadi beberapa golongan dan setiap komponen dapat di tentukan ukurannya berdasarkan golongan tersebut.
 
-# 4. AUTENTIKASI
-Suatu proses yang menjadi tindakan atau pembuktian validasi terhadap identifikasi pengguna ketika ingin memasuki dan mengakses sistem tertentu.
+# 6. EXTRA
+## Tabel
+Mempunyai fitur tambahan untuk pagiation, filter dan sort.
 
-## Cara Kerja Autentikasi
-Pengguna A mengirimkan kredensial yang biasasnya berupa kombinasiusername dan pasword, jika cocok maka server akan mengirim akses token dimana token tersebut adalah pembuktian mutlak kalau pengguna A adalah Pengguna A bukan Pengguna B,C atau yang lain.
+## Validasi Input
+Komponen Input memiliki props untuk validasi yang cukup canggih, menerima array of functions.
 
-## Otorisasi
-Authentication untuk mengkonfirmasi pengguna sesuai dengan siapa yang di claim.
-Authorization untuk mengatur perizinan terhadap tindakan yang dapat di lakukan pengguna.
+## Skeleton Loader
+Membuat loading 5 bukanlah sekedar mimpi lagi.
 
-# TASKS
-Pada tugas kali ini kita mendapatkan tugas yaitu membuat aplikasi berita berita dengan bantuan newsapi.
+## Dialog
+Membuat pop-up dialog tidak lagi menjadi mimpi buruk berkat bantuan rangka kerja UI
+
+# TASKS #
+Pada tugas kali ini kita akan me Revaktor aplikasi berita pada latihan materi vue data menggunakan vuetify. yaitu dimana kita akan menambahkan beberapa fitur seperti menu, pilihan kategori, dan juga pencarian.
