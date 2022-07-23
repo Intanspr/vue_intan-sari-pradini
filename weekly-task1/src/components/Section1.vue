@@ -21,6 +21,9 @@
         >klik disini</a
       >
     </h3>
+    <div>
+      <v-img src="../assets/Git.png" />
+    </div>
   </div>
 </template>
 
